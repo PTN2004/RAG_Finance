@@ -35,9 +35,9 @@ graph LR
 
 ## 🏗️ Cấu trúc thư mục
 ```
-**RAG4Bank**/
+RAG4Bank/
 ├── data_source/                # Chứa tài liệu nội bộ và pháp luật
-│   └── download.py            # Tự động tải tài liệu PDF
+│   └── prepare_data.py            # Tự động tải tài liệu PDF
 ├── src/
 │   ├── base/
 │   │   └── llm_model.py       # Khởi tạo mô hình ngôn ngữ
